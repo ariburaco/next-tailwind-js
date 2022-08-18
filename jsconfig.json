@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ES6",
+    "baseUrl": ".",
+    "checkJs": true,
+    "jsx": "preserve",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/utils/*": ["utils/*"],
+    }
+  }
+}
